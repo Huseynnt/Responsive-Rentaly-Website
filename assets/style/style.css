@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit&display=swap');
+
+:root {
+    --body-font: 'Inter', sans-serif;
+    --main-font: 'Outfit', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+body,
+a {
+    font-family: var(--body-font);
+}
+
+/* ---------------------------------------- Header ---------------------------------------- */
+
+header .links {
+    background-color: black;
+    padding: 10px 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white !important;
+    font-size: 15px !important;
+}
+
+header .dropdown-item {
+    color: black !important;
+}
+
+.nav-section {
+    background-image: url(../images/14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-section .image {
+    height: 40px;
+    width: 40px;
+    
+}
+
+.nav-section .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-section button {
+    padding: 5px;
+    background-color: #20cb15;
+    border: none;
+    border-radius: 0;
+}
+
+.nav-section button:focus {
+    box-shadow: none;
+}
+
+.nav-section button span {
+    background-image: url(../images/button-span-img.svg);
+}
+
+.nav-section .hero h1 {
+    font-family: var(--main-font);
+    color: white;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+/* ---------------------------------------- Cards ---------------------------------------- */
+
+main .card-section {
+    padding: 90px 0;
+    background-color: #F6F8FA;
+}
+
+main .card-section img {
+    height: 100%;
+    width: 100%;
+}
+
+main .card-head h3 {
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main .card-head p {
+    color: #979797;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main .card-content a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease-in-out;
+}
+
+main .card-content a:hover {
+    background-color: #20cb15;
+    color: white;
+}
+
+main .card-content a:hover i {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+main .car-card h3 {
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+main .car-card p {
+    font-size: 15px;
+    color: #4D5B7C;
+}
+
+main .car-card p span {
+    font-weight: 700;
+}
+
+main .car-card .price-card h2 {
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+
+/* ---------------------------------------- Footer ---------------------------------------- */
+
+footer {
+    background-color: #121212;
+    color: white;
+}
+
+footer .footer-links {
+    padding: 80px 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+footer h3 {
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer p {
+    color: #CCCCCC;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color:#20cb15;
+}
+
+footer .network a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    background-color: #2A2A2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+footer .network a:hover {
+    background-color: white;
+}
+
+footer .copyright {
+    padding: 20px 0;
+}
+
+footer .copyright .button {
+    background-color: #20cb15;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer .copyright .button:hover {
+    transform: scale(1.1);
+}
